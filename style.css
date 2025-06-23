@@ -226,6 +226,37 @@ a {
 
 .album {
     width: 25%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.album img {
+    border-radius: 0.75rem;
+    height: 3rem;
+
+}
+
+.album-info .album-det {
+    opacity: 0.5;
+    margin-left: 0.5rem;
+    font-size: 0.85rem;
+    line-height: normal;
+    line-height: 0.2rem;
+}
+
+.album-title {
+    opacity: 1;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+    line-height: 0.2rem;
+}
+
+.album-icon {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    opacity: 0.7;
 }
 
 .player {
