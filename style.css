@@ -265,6 +265,11 @@ a {
 
 .control {
     width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 1rem;
 }
 
 .player-control-icon {
